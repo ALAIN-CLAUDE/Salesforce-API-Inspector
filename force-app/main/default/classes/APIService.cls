@@ -6,6 +6,7 @@ public with sharing class APIService {
         HttpRequest req = new HttpRequest();
         req.setEndpoint(endpoint);
         req.setMethod(method);
+        req.setHeader('Accept', 'application/json');
 
         if (headers != null && headers != '') {
             Map<String, String> headerMap = (Map<String, String>) JSON.deserialize(headers, Map<String, String>.class);
