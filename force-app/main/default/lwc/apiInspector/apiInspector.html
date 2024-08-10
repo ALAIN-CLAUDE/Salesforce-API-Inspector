@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="Salesforce API Inspector">
+        <lightning-input label="HTTP Method" value={method} onchange={handleMethodChange} name="method"></lightning-input>
+        <lightning-input label="Endpoint URL" value={endpoint} onchange={handleInputChange} name="endpoint"></lightning-input>
+        <lightning-textarea label="Headers (JSON format)" value={headers} onchange={handleInputChange} name="headers"></lightning-textarea>
+        <lightning-textarea label="Body (JSON format)" value={body} onchange={handleInputChange} name="body"></lightning-textarea>
+        <lightning-button label="Send Request" onclick={handleSendRequest}></lightning-button>
+        <c-response-viewer response={response}></c-response-viewer>
+    </lightning-card>
+</template>

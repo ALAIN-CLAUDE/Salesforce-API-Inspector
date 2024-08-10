@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Request History">
+        <ul>
+            <template for:each={history} for:item="item">
+                <li key={item.Id}>
+                    <p>{item.method} {item.endpoint}</p>
+                </li>
+            </template>
+        </ul>
+    </lightning-card>
+</template>
