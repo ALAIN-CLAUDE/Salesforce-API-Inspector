@@ -1,0 +1,8 @@
+<template>
+    <lightning-card title="Mock Data Generator">
+        <lightning-button label="Generate Mock Data" onclick={generateData}></lightning-button>
+        <template if:true={mockData}>
+            <pre>{mockData}</pre>
+        </template>
+    </lightning-card>
+</template>
