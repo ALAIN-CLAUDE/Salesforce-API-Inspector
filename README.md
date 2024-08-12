@@ -45,6 +45,11 @@ Salesforce API Inspector is an open-source Lightning Web Component (LWC) tool de
 5. **Test the Component**:
     Open the app in Salesforce and test the Salesforce API Inspector by entering API details and sending a request. Remember the header must be in JSON Format.
 
+   Sample image below for current UI
+  ![image](https://github.com/user-attachments/assets/de2018d6-ebbb-4773-93ac-e365d93d5709)
+
+
+
 ## Usage
 
 1. Navigate to the app where you've added the Salesforce API Inspector component.
