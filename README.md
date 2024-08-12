@@ -38,18 +38,12 @@ Salesforce API Inspector is an open-source Lightning Web Component (LWC) tool de
     ```bash
     sfdx force:source:deploy -p force-app
     ```
-
-4. **Assign Permission Set**:
-    Assign the `API_Inspector_User` permission set to users who need access to the component:
-    ```bash
-    sfdx force:user:permset:assign -n API_Inspector_User
-    ```
-
-5. **Add the Component to Your App**:
+    
+4. **Add the Component to Your App Page**:
     In Salesforce, navigate to the Lightning App Builder and drag the "Salesforce API Inspector" component onto your desired app page.
 
-6. **Test the Component**:
-    Open the app in Salesforce and test the Salesforce API Inspector by entering API details and sending a request.
+5. **Test the Component**:
+    Open the app in Salesforce and test the Salesforce API Inspector by entering API details and sending a request. Remember the header must be in JSON Format.
 
 ## Usage
 
